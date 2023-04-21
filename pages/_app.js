@@ -1,5 +1,9 @@
 import '@/styles/globals.css'
+// import '@/styles/styles.css'
 
-export default function App({ Component, pageProps }) {
+function App({ Component, pageProps }) {
+  // console.log("I am _app.js");
   return <Component {...pageProps} />
 }
+
+export default App
